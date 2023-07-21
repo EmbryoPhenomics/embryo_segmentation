@@ -1,10 +1,10 @@
 # Semantic segmentation of Embryos in microscopy images
 
-![Alt Text](https://github.com/EmbryoPhenomics/embryo_segmentation/blob/main/example_segmentation.gif)
-
 This repository includes training and inference code, as well as pre-trained weights for some early life history stages of some species. Semantic segmentation is achieved through popular encoder-decoder architectures such as UNet and DeepLab V3. Currently there are only weights available for the detection of eggs in Lymnaea stagnalis, though this could be extended to other species with suitable training data. Results of these models are shown below as well as the links to the pre-trained models:
 
-Performance different models on Lymnaea stagnalis embryo segmentation:
+![Alt Text](https://github.com/EmbryoPhenomics/embryo_segmentation/blob/main/example_segmentation.gif)
+
+Performance of different models on Lymnaea stagnalis embryo segmentation:
 
 | name | resolution | binary iou | #params | model |
 |:---:|:---:|:---:|:---:| :---:|
