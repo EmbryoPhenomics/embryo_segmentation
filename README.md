@@ -4,7 +4,7 @@ This repository includes training and inference code, as well as pre-trained wei
 
 ![Alt Text](https://github.com/EmbryoPhenomics/embryo_segmentation/blob/main/example_segmentation.gif)
 
-Performance of different models on Lymnaea stagnalis embryo segmentation:
+Performance of different models on Lymnaea stagnalis embryo segmentation
 
 | name | resolution | binary iou | #params | model |
 |:---:|:---:|:---:|:---:| :---:|
@@ -17,7 +17,9 @@ Performance of different models on Lymnaea stagnalis embryo segmentation:
 | DeepLabV3+ | 256x256 | 95.8 | 11M | [model](https://github.com/EmbryoPhenomics/embryo_segmentation/releases/download/v0.1/DeepLabV3_lymnaea_binary.h5)
 | HRNetV2 | 256x256 | 95.9 | 9M | [model](https://github.com/EmbryoPhenomics/embryo_segmentation/releases/download/v0.1/HRNetV2_lymnaea_binary.h5)
 
+*If you want to reproduce the results above, simply download and extract the Lymnaea dataset included in the [v0.1](https://github.com/EmbryoPhenomics/embryo_segmentation/releases/tag/v0.1) release, and run the [`train_embryo.ipynb`](https://github.com/EmbryoPhenomics/embryo_segmentation/blob/main/train_embryo.ipynb) notebook with this data.*
+
 ### Lymnaea stagnalis image dataset
 
-Images and annotations for training are included in this repository in the release with model weights. Note that the images used for this dataset were captured with the [OpenVim](https://github.com/otills/openvim) phenotyping platform.
+Images and annotations for training are included in this repository in the release with model weights - you can download the dataset using the following [link](https://github.com/EmbryoPhenomics/embryo_segmentation/releases/download/v0.1/lymnaea_stagnalis_dataset.zip). Note that the images used for this dataset were captured with the [OpenVim](https://github.com/otills/openvim) phenotyping platform.
 
